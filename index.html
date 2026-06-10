@@ -354,8 +354,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
       <button onclick="go('team')">Team</button>
     </nav>
     <div class="nbtns">
-      <button class="bg-none" onclick="go('cta')">Log In</button>
-      <button class="btn-g" onclick="go('cta')">Join Waitlist</button>
+      <button class="btn-g" onclick="go('cta')">Request Demo</button>
     </div>
     <button class="mob-btn" onclick="toggleMob()" id="mob-btn">
       <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -369,9 +368,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
   <button onclick="go('tech');toggleMob()">Infrastructure</button>
   <button onclick="go('market');toggleMob()">Market</button>
   <button onclick="go('team');toggleMob()">Team</button>
-  <div style="display:flex;flex-direction:column;gap:9px;padding-top:14px;border-top:1px solid var(--border);">
-    <button class="btn-ol" onclick="go('cta');toggleMob()" style="text-align:center;border-radius:8px;padding:11px;">Log In</button>
-    <button class="btn-g" onclick="go('cta');toggleMob()" style="text-align:center;border-radius:8px;padding:11px;">Join Waitlist</button>
+  <div style="padding-top:14px;border-top:1px solid var(--border);">
+    <button class="btn-g" onclick="go('cta');toggleMob()" style="width:100%;text-align:center;border-radius:8px;padding:11px;">Request Demo</button>
   </div>
 </div>
 
@@ -385,7 +383,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
         <h1 class="r d1">The platform that<br/><span class="gold">bridges design</span><br/>and code.</h1>
         <p class="h-sub r d2">African designers and developers have always worked in separate worlds. BuildHive finally brings them together — using AI to automate handoffs, eliminate miscommunication, and help teams ship great products faster.</p>
         <div class="h-ctas r d3">
-          <button class="btn-gl" onclick="go('cta')">🐝 Join the Waitlist →</button>
+          <button class="btn-gl" onclick="go('cta')">🐝 Request a Demo →</button>
           <button class="btn-ol" onclick="go('how')">See How It Works</button>
         </div>
         <div class="h-proof r d4">
@@ -719,7 +717,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
       <p>Be among the first builders to access BuildHive. Early members get Pro free for 3 months — no credit card required.</p>
       <div class="ctaf">
         <input type="email" class="ctai" id="emailInput" placeholder="Enter your email address"/>
-        <button class="btn-gl" onclick="joinWaitlist()">🐝 Join the Hive</button>
+        <button class="btn-gl" onclick="joinWaitlist()">🐝 Request Demo</button>
       </div>
       <p class="cta-note">📧 Questions? Reach us at hello@buildhive.io · No spam, ever.</p>
     </div>
@@ -730,52 +728,54 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
 <footer>
   <div class="w">
     <div class="fg">
+
+      <!-- Brand -->
       <div class="fb">
-        <a href="#" class="nl" style="margin-bottom:0;">
+        <a href="index.html" class="nl" style="margin-bottom:0;">
           <div class="nlb" style="width:40px;height:40px;">
             <svg viewBox="0 0 36 36" fill="none" width="26" height="26">
-              <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="none" stroke="#0C0C0C" stroke-width="1"/>
-              <polygon points="18,6 29,12.5 29,23.5 18,30 7,23.5 7,12.5" fill="#0C0C0C" opacity="0.4"/>
+              <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="none" stroke="#0C0C0C" stroke-width="1.2"/>
               <polygon points="24,10 27.5,12 27.5,16 24,18 20.5,16 20.5,12" fill="#0C0C0C"/>
-              <polygon points="18,13 21.5,15 21.5,19 18,21 14.5,19 14.5,15" fill="#0C0C0C" stroke="#0C0C0C" stroke-width="0.5" opacity="0.6"/>
+              <polygon points="18,13 21.5,15 21.5,19 18,21 14.5,19 14.5,15" fill="#0C0C0C" opacity=".6"/>
               <line x1="16.5" y1="18.5" x2="19.5" y2="15.5" stroke="#0C0C0C" stroke-width="1.8" stroke-linecap="round"/>
               <circle cx="15.8" cy="19.2" r="1.9" fill="none" stroke="#0C0C0C" stroke-width="1.8"/>
-              <circle cx="20.2" cy="14.8" r="1.4" fill="none" stroke="#0C0C0C" stroke-width="1.8"/>
             </svg>
           </div>
-          <span style="font-family:var(--h);font-weight:800;font-size:1.12rem;">BuildHive</span>
+          <span style="font-family:var(--h);font-weight:800;font-size:1.12rem;color:#FFFFFF;">BuildHive</span>
         </a>
         <p>Bridging the gap between design and code for African teams. AI-powered. Africa-first. Built for the world.</p>
         <div class="fsocs">
-          <a href="#" class="fsoc">𝕏</a>
-          <a href="#" class="fsoc">in</a>
-          <a href="#" class="fsoc">ig</a>
+          <a href="https://x.com/buildhive2h?s=11" target="_blank" rel="noopener" class="fsoc" title="Follow us on X">𝕏</a>
+          <a href="https://www.linkedin.com/company/linkedin-buildhive" target="_blank" rel="noopener" class="fsoc" title="Connect on LinkedIn">in</a>
         </div>
       </div>
+
+      <!-- Platform -->
       <div class="fc">
         <h5>Platform</h5>
-        <a href="#solution">Features</a>
-        <a href="#ai">AI Technology</a>
+        <a href="features.html">Features</a>
+        <a href="ai.html">AI Technology</a>
         <a href="#roadmap">Roadmap</a>
-        <a href="#">Changelog ↗</a>
       </div>
+
+      <!-- Company -->
       <div class="fc">
         <h5>Company</h5>
-        <a href="#team">About Us</a>
-        <a href="#">Careers</a>
-        <a href="#">Blog</a>
-        <a href="mailto:hello@buildhive.io">Contact</a>
+        <a href="about.html">About Us</a>
+        <a href="team.html">Team</a>
+        <a href="mailto:hello@buildhive.site">Contact</a>
       </div>
+
+      <!-- Legal -->
       <div class="fc">
         <h5>Legal</h5>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Cookie Policy</a>
-        <a href="#">Data Protection</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
       </div>
+
     </div>
     <div class="fbot">
-      <p>© 2025 BuildHive. All rights reserved. · hello@buildhive.io</p>
+      <p>© 2025 BuildHive. All rights reserved. · hello@buildhive.site</p>
       <p>Built with purpose in Africa. 🐝</p>
     </div>
   </div>
@@ -816,9 +816,9 @@ function joinWaitlist(){
   const inp=document.getElementById('emailInput');
   if(!inp.value||!inp.value.includes('@')){inp.style.borderColor='#F87171';setTimeout(()=>inp.style.borderColor='',1500);return;}
   const btn=inp.nextElementSibling;
-  btn.textContent="✅ You're on the list!";btn.style.background='#4ADE80';btn.style.color='#0C0C0C';
+  btn.textContent="✅ Request Received!";btn.style.background='#4ADE80';btn.style.color='#0C0C0C';
   inp.value='';inp.placeholder="Thanks! We'll be in touch 🐝";
-  setTimeout(()=>{btn.textContent='🐝 Join the Hive';btn.style.background='';btn.style.color='';inp.placeholder='Enter your email address';},4000);
+  setTimeout(()=>{btn.textContent='🐝 Request Demo';btn.style.background='';btn.style.color='';inp.placeholder='Enter your email address';},4000);
 }
 document.getElementById('emailInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')joinWaitlist();});
 </script>
