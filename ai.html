@@ -362,7 +362,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
       
     </nav>
     <div class="nbtns">
-      <button class="btn-g" onclick="window.location="index.html#cta"">Request Demo</button>
+      <button class="btn-g" onclick="window.location="index.html#cta"">Start Free Trial</button>
     </div>
     <button class="mob-btn" onclick="toggleMob()" id="mob-btn">
       <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
@@ -378,7 +378,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
   <a href="index.html#team" style="font-size:1.05rem;font-weight:600;color:var(--text);padding:8px 0;text-decoration:none;">Team</a>
   
   <div style="padding-top:14px;border-top:1px solid var(--border);">
-    <button class="btn-g" onclick="window.location="index.html#cta"" style="width:100%;text-align:center;border-radius:8px;padding:11px;">Request Demo</button>
+    <button class="btn-g" onclick="window.location="index.html#cta"" style="width:100%;text-align:center;border-radius:8px;padding:11px;">Start Free Trial</button>
   </div>
 </div>
 
@@ -455,7 +455,7 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
       <p>Request a demo and see exactly how BuildHive AI bridges your design-dev gap in real time.</p>
       <div class="ctaf">
         <input type="email" class="ctai" id="emailInput" placeholder="Enter your email address"/>
-        <button class="btn-gl" onclick="joinWaitlist()">🐝 Request Demo</button>
+        <button class="btn-gl" onclick="joinWaitlist()">🐝 Start Free Trial</button>
       </div>
       <p class="cta-note">📧 Questions? hello@buildhive.site</p>
     </div>
@@ -465,8 +465,6 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
 <footer>
   <div class="w">
     <div class="fg">
-
-      <!-- Brand -->
       <div class="fb">
         <a href="index.html" class="nl" style="margin-bottom:0;">
           <div class="nlb" style="width:40px;height:40px;">
@@ -483,20 +481,17 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
         <p>Bridging the gap between design and code for African teams. AI-powered. Africa-first. Built for the world.</p>
         <div class="fsocs">
           <a href="https://x.com/buildhive2h?s=11" target="_blank" rel="noopener" class="fsoc" title="Follow us on X">𝕏</a>
-          <a href="https://www.linkedin.com/company/linkedin-buildhive" target="_blank" rel="noopener" class="fsoc" title="Connect on LinkedIn">in</a>
+          <a href="https://www.linkedin.com/company/linkedin-buildhive" target="_blank" rel="noopener" class="fsoc" title="LinkedIn">in</a>
         </div>
       </div>
-
-      <!-- Platform -->
       <div class="fc">
         <h5>Platform</h5>
         <a href="features.html">Features</a>
         <a href="ai.html">AI Technology</a>
+        <a href="pricing.html">Pricing</a>
         <a href="index.html#roadmap">Roadmap</a>
         <a href="index.html#solution">Changelog</a>
       </div>
-
-      <!-- Company -->
       <div class="fc">
         <h5>Company</h5>
         <a href="about.html">About Us</a>
@@ -504,14 +499,11 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
         <a href="mailto:hello@buildhive.site">Contact</a>
         <a href="index.html#market">Market</a>
       </div>
-
-      <!-- Legal -->
       <div class="fc">
         <h5>Legal</h5>
         <a href="privacy.html">Privacy Policy</a>
         <a href="terms.html">Terms of Service</a>
       </div>
-
     </div>
     <div class="fbot">
       <p>© 2025 BuildHive. All rights reserved. · hello@buildhive.site</p>
@@ -547,9 +539,9 @@ function joinWaitlist(){
   const inp=document.getElementById('emailInput');
   if(!inp||!inp.value||!inp.value.includes('@')){if(inp){inp.style.borderColor='#F87171';setTimeout(()=>inp.style.borderColor='',1500);}return;}
   const btn=inp.nextElementSibling;
-  btn.textContent="✅ Request Received!";btn.style.background='#4ADE80';btn.style.color='#0C0C0C';
+  btn.textContent="✅ Trial Started!";btn.style.background='#4ADE80';btn.style.color='#0C0C0C';
   inp.value='';inp.placeholder="Thanks! We'll be in touch 🐝";
-  setTimeout(()=>{btn.textContent='🐝 Request Demo';btn.style.background='';btn.style.color='';inp.placeholder='Enter your email address';},4000);
+  setTimeout(()=>{btn.textContent='🐝 Start Free Trial';btn.style.background='';btn.style.color='';inp.placeholder='Enter your email address';},4000);
 }
 document.getElementById('emailInput')?.addEventListener('keydown',e=>{if(e.key==='Enter')joinWaitlist();});
 </script>
