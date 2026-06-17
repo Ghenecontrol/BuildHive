@@ -30,7 +30,7 @@ header{position:fixed;top:0;left:0;right:0;z-index:100;padding:18px 0;transition
 header.scrolled{background:rgba(12,12,12,.92);backdrop-filter:blur(24px);border-bottom:1.5px solid var(--border-g);padding:11px 0;box-shadow:0 4px 40px -10px rgba(251,191,36,.15);}
 .ni{max-width:1160px;margin:0 auto;padding:0 24px;display:flex;align-items:center;justify-content:space-between;}
 .nl{display:flex;align-items:center;gap:10px;text-decoration:none;}
-.nlb{width:40px;height:40px;background:var(--gold);border-radius:10px;display:flex;align-items:center;justify-content:center;box-shadow:0 4px 20px rgba(251,191,36,.3);transition:transform .2s;}
+.nlb{width:40px;height:40px;background:transparent;border:1.5px solid var(--gold);border-radius:10px;display:flex;align-items:center;justify-content:center;transition:transform .2s;}
 .nlb:hover{transform:scale(1.05);}
 .nbrand{font-family:var(--h);font-weight:800;font-size:1.35rem;letter-spacing:-.02em;color:#FFFFFF;}
 .nlinks{display:flex;align-items:center;gap:1.8rem;}
@@ -341,13 +341,12 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
     <a href="index.html" class="nl">
       <div class="nlb">
         <svg viewBox="0 0 36 36" fill="none" width="26" height="26">
-          <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="none" stroke="#0C0C0C" stroke-width="1"/>
-          <polygon points="18,6 29,12.5 29,23.5 18,30 7,23.5 7,12.5" fill="#0C0C0C" opacity="0.4"/>
-          <polygon points="24,10 27.5,12 27.5,16 24,18 20.5,16 20.5,12" fill="#0C0C0C"/>
-          <polygon points="18,13 21.5,15 21.5,19 18,21 14.5,19 14.5,15" fill="#0C0C0C" opacity=".6"/>
-          <line x1="16.5" y1="18.5" x2="19.5" y2="15.5" stroke="#0C0C0C" stroke-width="1.8" stroke-linecap="round"/>
-          <circle cx="15.8" cy="19.2" r="1.9" fill="none" stroke="#0C0C0C" stroke-width="1.8"/>
-          <circle cx="20.2" cy="14.8" r="1.4" fill="none" stroke="#0C0C0C" stroke-width="1.8"/>
+          <circle cx="13" cy="14" r="4.6" fill="none" stroke="#FBBF24" stroke-width="1.7"/>
+          <circle cx="23" cy="14" r="4.6" fill="none" stroke="#22D3EE" stroke-width="1.7"/>
+          <circle cx="18" cy="24" r="4.6" fill="none" stroke="#FBBF24" stroke-width="1.7"/>
+          <line x1="15.8" y1="17" x2="16.6" y2="20.5" stroke="#FBBF24" stroke-width="1.4"/>
+          <line x1="20.2" y1="17" x2="19.4" y2="20.5" stroke="#22D3EE" stroke-width="1.4"/>
+          <line x1="17.5" y1="14" x2="18.5" y2="14" stroke="#F5F0E8" stroke-width="1.4" opacity="0.7"/>
         </svg>
       </div>
       <span class="nbrand">BuildHive</span>
@@ -418,12 +417,13 @@ footer{background:var(--bg2);border-top:1px solid var(--border);padding:68px 0 2
         <a href="index.html" class="nl" style="margin-bottom:0;">
           <div class="nlb" style="width:40px;height:40px;">
             <svg viewBox="0 0 36 36" fill="none" width="26" height="26">
-              <polygon points="18,2 32,10 32,26 18,34 4,26 4,10" fill="none" stroke="#0C0C0C" stroke-width="1.2"/>
-              <polygon points="24,10 27.5,12 27.5,16 24,18 20.5,16 20.5,12" fill="#0C0C0C"/>
-              <polygon points="18,13 21.5,15 21.5,19 18,21 14.5,19 14.5,15" fill="#0C0C0C" opacity=".6"/>
-              <line x1="16.5" y1="18.5" x2="19.5" y2="15.5" stroke="#0C0C0C" stroke-width="1.8" stroke-linecap="round"/>
-              <circle cx="15.8" cy="19.2" r="1.9" fill="none" stroke="#0C0C0C" stroke-width="1.8"/>
-            </svg>
+          <circle cx="13" cy="14" r="4.6" fill="none" stroke="#FBBF24" stroke-width="1.7"/>
+          <circle cx="23" cy="14" r="4.6" fill="none" stroke="#22D3EE" stroke-width="1.7"/>
+          <circle cx="18" cy="24" r="4.6" fill="none" stroke="#FBBF24" stroke-width="1.7"/>
+          <line x1="15.8" y1="17" x2="16.6" y2="20.5" stroke="#FBBF24" stroke-width="1.4"/>
+          <line x1="20.2" y1="17" x2="19.4" y2="20.5" stroke="#22D3EE" stroke-width="1.4"/>
+          <line x1="17.5" y1="14" x2="18.5" y2="14" stroke="#F5F0E8" stroke-width="1.4" opacity="0.7"/>
+        </svg>
           </div>
           <span style="font-family:var(--h);font-weight:800;font-size:1.12rem;color:#FFFFFF;">BuildHive</span>
         </a>
